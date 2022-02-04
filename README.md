@@ -4,19 +4,13 @@
 
 This is a template to develop MySQL based projects in Python using `mysql-connector-python`. You can fork this repo and start working instantly. I have creating a sample movie database and two basic queries for it.
 
-## Directory
+## Directory Information
 
-```
-.
-├── data
-│ └── movies.csv: Movies data in CSV
-├── DbStreamer
-│ └── main.py: main file containing database manipulating functions
-├── 1_make_schema.py: file containing schema building code
-├── 2_insert_entries.py: creating demo entries in the database
-├── Makefile
-└── README.md
-```
+- `data/movies.csv`: Movie data in CSV format
+- DbStreamer/main.py: main file containing database manipulating functions
+- 1_make_schema.py: file containing schema building code
+- 2_insert_entries.py: creating demo entries in the database
+- Makefile
 
 ## How to run?
 

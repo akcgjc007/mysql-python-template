@@ -1,7 +1,7 @@
-from DbStreamer.main import DbStreamer
+from Classes.Movies import Movies
 
-obj = DbStreamer(host="localhost", user="root",
-                 password="0000", database="mydb")
+obj = Movies(host="localhost", user="root",
+             password="0000", database="mydb")
 obj.initialize_database()
 
 obj.run_my_query("""

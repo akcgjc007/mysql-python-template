@@ -1,9 +1,8 @@
-from DbStreamer.main import *
-from data import *
+from Classes.Movies import Movies
 import csv
 
-obj = DbStreamer(host="localhost", user="root",
-                 password="0000", database="mydb")
+obj = Movies(host="localhost", user="root",
+             password="0000", database="mydb")
 
 # Inserting into Tables
 file = open('./data/movies.csv')
