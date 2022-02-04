@@ -1,10 +1,10 @@
 PY := python3
 
-all: schema demo
+all: 1 2
 
-schema:
+1:
 	$(PY) 1_make_schema.py
 
-demo: 
-	$(PY) demo.py
+2: 
+	$(PY) 2_insert_entries.py
 
