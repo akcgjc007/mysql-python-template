@@ -1,6 +1,6 @@
 # MySQL Python Ubuntu Template
 
-I am working on this template for MySQL and python-connector based projects. It can also be used in Windows but I am primarily working and testing on Ubuntu.
+I am working on this simple template for MySQL and python-connector based projects. It can also be used in Windows but I am primarily working and testing on Ubuntu.
 
 ## References
 
