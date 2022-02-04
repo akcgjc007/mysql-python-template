@@ -7,7 +7,8 @@ class DbStreamer:
     def __init__(self, host, user, password, database):
         self.conn = mysql.connect(
             host=host, user=user, passwd=password, db=database)
-        self.run_my_query("use mydb;")
+        self.database = database
+        self.run_my_query("use "+self.database+";")
         return
 
     """Destructor"""
@@ -28,9 +29,9 @@ class DbStreamer:
     """Reset the database"""
 
     def initialize_database(self):
-        self.run_my_query("drop database if exists mydb;")
-        self.run_my_query("create database mydb;")
-        self.run_my_query("use mydb;")
+        self.run_my_query("drop database if exists "+self.database+";")
+        self.run_my_query("create database "+self.database+";")
+        self.run_my_query("use "+self.database+";")
 
     """Database related functions"""
 
