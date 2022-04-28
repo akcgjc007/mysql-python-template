@@ -7,7 +7,7 @@ This is a template to develop MySQL based projects in Python using `mysql-connec
 ## Directory Information
 
 - `data/movies.csv`: Movie data in CSV format
-- DbStreamer/main.py: main file containing database manipulating functions
+- `DbStreamer/main.py`: main file containing database manipulating functions
 - 1_make_schema.py: file containing schema building code
 - 2_insert_entries.py: creating demo entries in the database
 - Makefile
